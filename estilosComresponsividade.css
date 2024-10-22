@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.pix0, .pix, .pix1, .comprov {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.pix0 {
+    font-size: 50px;
+}
+
+.whatsapp {
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.topado {
+    display: flex;
+    justify-content: center;
+}
+
+.Topo2 {
+    height: 100px;
+    width: 200px;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Topo {
+    height: auto; /* Mudei para auto */
+    width: 100%; /* Ajustado para ocupar toda a largura */
+}
+
+.box {
+    margin: 0 auto; /* Centraliza horizontalmente */
+    background-color: #38393A;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    width: 90%; /* Ajuste para ser responsivo */
+    max-width: 600px; /* Limite de largura */
+}
+
+fieldset {
+    border: solid 3px red;
+}
+
+legend {
+    border: solid 3px red;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.inputBox {
+    position: relative;
+    padding: 10px;
+    font-weight: 900;
+}
+
+.inputINS {
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: 1s;
+}
+
+.inputINS:focus ~ .labelInput,
+.inputINS:valid ~ .labelInput {
+    top: -16px;
+    font-size: 12px;
+    color: white;
+}
+
+#BTN {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+}
+
+#submit {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    border: solid 1px black;
+}
+
+#submit:hover {
+    background-color: rgb(81, 255, 0);
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 600px) {
+    .pix0, .pix, .pix1, .comprov {
+        margin-right: 0; /* Remove margens em telas pequenas */
+    }
+
+    .topado, .topo {
+        padding-left: 0; /* Remove padding em telas pequenas */
+    }
+
+    .Topo {
+        padding-left: 0; /* Remove padding em telas pequenas */
+        width: 100%; /* Ajusta a largura para 100% */
+    }
+
+    .box {
+        width: 95%; /* Faz a caixa um pouco mais larga em telas pequenas */
+    }
+}

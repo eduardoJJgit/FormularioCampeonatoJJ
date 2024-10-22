@@ -1,0 +1,149 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+
+}
+.paiDotopo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.pix0{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 950px;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 50px;
+}
+.pix{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 950px;
+    padding: 10px;
+    font-weight: 800;
+
+}
+.pix1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 950px;
+    padding: 10px;
+}
+.comprov{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 950px;
+    padding: 10px;
+    font-weight: 700;
+}
+.whatsapp{
+    height: 100px;
+    width: 100px;
+    padding-left: 425px;
+   
+}
+.topado{
+display: flex;
+padding-left: 400px;
+
+}
+.Topo2{
+    height: 100px;
+    width: 200px;
+
+}
+.topo{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Topo{
+   height: 450px;
+   width: 330px;
+  
+    padding-left: 320px;
+}
+
+.box{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(25%, -50%);
+   background-color:#38393A;
+   padding: 15px;
+   border-radius: 15px;
+   height: 100%;
+   width: 35%;
+    color:white;
+}
+fieldset{
+    border: solid 3px red;
+}
+legend{
+    border: solid 3px red;
+    padding: 10px;
+    text-align: center;
+    background-color: red;
+    border-radius: 8px;
+
+}
+.inputBox{
+    position: relative;
+    padding: 10Px;
+    font-weight: 900;
+}
+.inputINS{
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    pointer-events: none;
+    transition: 1s;
+}
+.inputINS:focus ~ .labelInput,
+.inputINS:valid ~ .labelInput{
+    top: -16px;
+    font-size: 12px;
+    color: white;
+}
+#BTN{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 900;
+}
+#submit{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 900;
+    border: solid 1px black;
+}
+#submit:hover{
+    background-color:rgb(81, 255, 0) ;
+}
